@@ -1,0 +1,43 @@
+body
+{    
+    text-align: center;
+    background-image: url("sejeong.jpg");    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+}
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;    
+    /* border: 3px solid black; */
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.red{
+   
+    background-color: rgb(255, 60, 60); 
+}
+.blue{
+    
+    background-color: rgb(47, 113, 255); 
+}
+
+.green{
+    
+    background-color: rgb(102, 255, 102); 
+}
