@@ -1,0 +1,112 @@
+h1{
+    background-color:#eb8282;
+    color: rgb(255, 255, 255);
+  
+}
+#chicken{
+    width: 30%;
+}
+.cont{
+    padding-left: 220px;
+}
+.div_c{
+   text-align: center;
+}
+.div_l{
+    text-align:left;
+}
+body{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a:link{
+    color: blue; 
+}  
+/* visited link */
+ a:visited{
+    color:rgb(255, 174, 0); 
+}  
+/* mouse over link */  
+ a:hover{ 
+    color: rgb(109, 58, 138); 
+} 
+p{
+    font-size: 20px;
+}
+.flex-container>div {
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;    
+    padding: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fixsize
+{
+    width: 50%;
+    height: auto;
+}
+.content{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+hr{
+    border: solid white ;
+    width: 100%;
+}
+.stick
+{
+    position: fixed;
+    top: -2%;
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 10px;
+}
+#grid1{
+    text-align: center;
+    
+}
+#grid3{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+}
+.blank{
+    background-color: white;
+    grid-column: 1 / span 3 ;
+}
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 10px;
+    }   
+    #grid1{
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    #grid3{
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        grid-column: 1 / span 1;
+    
+    }
+    .blank{
+        background-color: white;
+        grid-column: 1 / span 1 ;
+    } 
+}
